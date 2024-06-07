@@ -1,0 +1,25 @@
+#story_title {
+    text-align: center;
+    color: #B6244F;
+    margin-bottom: 0.1em;
+}
+
+.self-pic {
+    border-radius: 50%;
+    border: #B6244F 3px solid;
+    background-color: #333;
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+    height: 200px;
+    width: 200px;
+    margin-top: 2em;
+    background: url("/img/profile-pic.png") center center no-repeat;
+    background: url("/img/profile-pic.png") center center no-repeat;
+}
+
+.about-para {
+    font-weight: 400;
+    color: #000;
+    margin-top: 50px;
+}

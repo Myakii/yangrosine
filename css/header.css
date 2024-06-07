@@ -1,0 +1,52 @@
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.container-header nav {
+    gap: 30px;
+    display: flex;
+}
+
+.container .btn {
+    color: #fff;
+}
+
+#logo {
+    height: 60px;
+    width: 60px;
+}
+
+header {
+    background-image: url(/img/header-img-precomp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    color: #B6244F;
+    text-decoration: none;
+    background: linear-gradient(to top, #B6244F 0%, #B6244F 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+}
+
+nav a:hover {
+    background-size: 100% 100%;
+}
+
+#jumbotron {
+    text-align: center;
+    color: #B6244F;
+}
+
+#supporting-header {
+    text-align: center;
+    color: #B6244F;
+}
