@@ -22,7 +22,8 @@
     color: #000;
 }
 
-.contact-button:hover {
+.contact-button:hover,
+.contact-button:focus {
     background-color: #fff;
     color: #B6244F;
     border: #B6244F 2px solid;
