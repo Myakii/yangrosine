@@ -3,7 +3,6 @@
     background-color: #FEECEE;
 }
 
-<<<<<<< HEAD
 .contact {
     color: #000;
 }
@@ -21,25 +20,12 @@
     white-space: nowrap;
     font-weight: 600;
     color: #000;
-=======
-.contact-button {
-    border: 2px white solid;
-    border-radius: 10px;
-    display: block;
-    margin: 15px auto;
-    text-align: center;
-    white-space: nowrap;
-    font-weight: 600;
->>>>>>> a5b32b75d464791c2bd24700b336f1f921987bd8
 }
 
 .contact-button:hover {
     background-color: #fff;
     color: #B6244F;
-<<<<<<< HEAD
     border: #B6244F 2px solid;
-=======
->>>>>>> a5b32b75d464791c2bd24700b336f1f921987bd8
 }
 
 .social-media {
@@ -47,7 +33,6 @@
     margin-bottom: 20px;
 }
 
-<<<<<<< HEAD
 .social-media a {
     color: #000;
 }
@@ -60,12 +45,6 @@
 .foot {
     text-align: center;
     color: #000;
-=======
-/* footer  */
-.foot {
-    text-align: center;
-    color: #fff;
->>>>>>> a5b32b75d464791c2bd24700b336f1f921987bd8
 }
 
 lemon-learning-player {

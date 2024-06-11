@@ -35,10 +35,7 @@ nav a {
     text-decoration: none;
     background: linear-gradient(to top, #B6244F 0%, #B6244F 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
     transition: background-size .5s;
-<<<<<<< HEAD
     padding-bottom: 5px;
-=======
->>>>>>> a5b32b75d464791c2bd24700b336f1f921987bd8
 }
 
 nav a:hover {

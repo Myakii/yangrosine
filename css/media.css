@@ -1,6 +1,5 @@
 /* Header */
 @media (min-width: 12.5em) {
-<<<<<<< HEAD
   header {
     height: 100%;
     padding-bottom: 2em;
@@ -27,39 +26,10 @@
     display: inline-block;
     font-size: 1em;
   }
-=======
-    header {
-        height: 100%;
-        padding-bottom: 2em;
-    }
-}
-
-@media (min-width: 63em) {
-    header {
-        height: 100vh;
-        background-attachment: fixed;
-    }
-}
-
-@media (min-width: 12.5em) {
-    ul.in {
-        display: none;
-        font-weight: 600;
-        letter-spacing: 0.075em;
-    }
-}
-
-@media (min-width: 63em) {
-    ul.in {
-        display: inline-block;
-        font-size: 1em;
-    }
->>>>>>> a5b32b75d464791c2bd24700b336f1f921987bd8
 }
 
 /* Jumbotron */
 @media (min-width: 12.5em) {
-<<<<<<< HEAD
   #jumbotron {
     margin-top: 1.15em;
   }
@@ -90,44 +60,11 @@
     margin-top: 1em;
     margin-bottom: 1em;
   }
-=======
-    #jumbotron {
-        margin-top: 1.15em;
-    }
-}
-
-@media (min-width: 63em) {
-    #jumbotron {
-        margin-top: 3em;
-    }
-}
-
-@media (min-width: 12.5em) {
-    #supporting-header {
-        margin-top: 0.8em;
-        margin-top: 0.8em;
-    }
-}
-
-@media (min-width: 30em) {
-    #supporting-header {
-        margin-top: 0.7em;
-        margin-top: 0.7em;
-    }
-}
-
-@media (min-width: 63em) {
-    #supporting-header {
-        margin-top: 1em;
-        margin-bottom: 1em;
-    }
->>>>>>> a5b32b75d464791c2bd24700b336f1f921987bd8
 }
 
 /* Btn */
 
 @media (min-width: 12.5em) {
-<<<<<<< HEAD
   .btn {
     padding: 1em;
     width: 70%;
@@ -173,58 +110,10 @@
   .fa-bars {
     display: none !important;
   }
-=======
-    .btn {
-        padding: 1em;
-        width: 70%;
-    }
-}
-
-@media (min-width: 30em) {
-    .btn {
-        width: 40%;
-    }
-}
-
-@media (min-width: 47.5em) {
-    .btn {
-        padding: 1em 3em;
-        width: 30%;
-    }
-}
-
-@media (min-width: 63em) {
-    .btn {
-        width: 20%;
-        margin-top: 5em;
-    }
-
-    .btn:hover {
-        background-color: #fff;
-        color: #7a7f82;
-        -webkit-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-    }
-}
-
-@media (min-width: 12.5em) {
-    .fa-bars {
-        margin-top: 0.2em;
-        display: block;
-        cursor: pointer;
-    }
-}
-
-@media (min-width: 63em) {
-    .fa-bars {
-        display: none !important;
-    }
->>>>>>> a5b32b75d464791c2bd24700b336f1f921987bd8
 }
 
 /* Flex */
 @media (min-width: 12.5em) {
-<<<<<<< HEAD
   .flex {
     display: flex;
     justify-content: space-between;
@@ -238,26 +127,10 @@
     justify-content: space-between;
     flex-wrap: wrap;
   }
-=======
-    .flex {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
-}
-
-@media (min-width: 63em) {
-    .flex {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
->>>>>>> a5b32b75d464791c2bd24700b336f1f921987bd8
 }
 
 /* Figure & IMG */
 @media (min-width: 12.5em) {
-<<<<<<< HEAD
   figure {
     width: 100%;
     padding-right: 5px;
@@ -295,50 +168,10 @@
     height: 300px;
     width: 300px;
   }
-=======
-    figure {
-        width: 100%;
-        padding-right: 5px;
-        overflow: hidden;
-    }
-}
-
-@media (min-width: 30em) {
-    figure {
-        width: 50%;
-    }
-}
-
-@media (min-width: 47.5em) {
-    figure {
-        width: 35%;
-    }
-}
-
-@media (min-width: 63em) {
-    figure {
-        height: 300px;
-        width: 300px;
-    }
-}
-
-@media (min-width: 12.5em) {
-    img {
-        width: 100%;
-    }
-}
-
-@media (min-width: 63em) {
-    img {
-        height: 300px;
-        width: 300px;
-    }
->>>>>>> a5b32b75d464791c2bd24700b336f1f921987bd8
 }
 
 /* Contact */
 @media (min-width: 12.5em) {
-<<<<<<< HEAD
   .contact {
     white-space: normal;
     text-align: center;
@@ -445,111 +278,6 @@
 }
 
 /* Mobile version */
-=======
-    .contact {
-      white-space: normal;
-      text-align: center;
-      color: #fff;
-      margin-bottom: 0;
-    }
-  }
-  
-  @media (min-width: 47.5em) {
-    .contact {
-      white-space: nowrap;
-    }
-  }
-
-  @media (min-width: 12.5em) {
-    .contact-button {
-      padding: 1em;
-      width: 70%;
-      margin-top: 1.5em;
-    }
-  }
-  
-  @media (min-width: 30em) {
-    .contact-button {
-      width: 40%;
-    }
-  }
-  
-  @media (min-width: 47.5em) {
-    .contact-button {
-      padding: 1em 3em;
-      width: 30%;
-    }
-  }
-  
-  @media (min-width: 63em) {
-    .contact-button {
-      width: 20%;
-      margin-top: 2em;
-    }
-  }
-
-  /* Media */
-  @media (min-width: 12.5em) {
-    .social-media a {
-      padding-left: 0.6em;
-      padding-right: 0.3em;
-    }
-  }
-  
-  @media (min-width: 30em) {
-    .social-media a {
-      padding-left: 0.8em;
-      padding-right: 0.8em;
-    }
-  }
-  
-  @media (min-width: 63em) {
-    .social-media a {
-      padding-left: 2em;
-      padding-right: 2em;
-    }
-  }
-  
-  /* Container */
-  @media (min-width: 12.5em) {
-    .container {
-      padding: 2.5em 3em;
-    }
-    .container:after {
-      content: " ";
-      display: block;
-      clear: both;
-    }
-  }
-  
-  @media (min-width: 47.5em) {
-    .container {
-      max-width: 50em;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .container:after {
-      content: " ";
-      display: block;
-      clear: both;
-    }
-  }
-  
-  @media (min-width: 63em) {
-    .container {
-      max-width: 80em;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .container:after {
-      content: " ";
-      display: block;
-      clear: both;
-    }
-  }
-
-  /* Mobile version */
->>>>>>> a5b32b75d464791c2bd24700b336f1f921987bd8
 
 /* Menu */
 /* Overlay for mobile navigation and close button */
@@ -586,36 +314,21 @@
   text-align: center;
   top: 50%;
   -webkit-transform: translateY(50%);
-<<<<<<< HEAD
   -ms-transform: translateY(50%);
   transform: translateY(50%);
-=======
-      -ms-transform: translateY(50%);
-          transform: translateY(50%);
->>>>>>> a5b32b75d464791c2bd24700b336f1f921987bd8
 }
 
 
 @media (min-width: 12.5em) {
   .mobile {
-<<<<<<< HEAD
     font-size: 1.7em;
     text-align: center;
     display: block;
-=======
-      font-size: 1.7em;
-      text-align: center;
-      display: block;
->>>>>>> a5b32b75d464791c2bd24700b336f1f921987bd8
   }
 }
 
 @media (min-width: 63em) {
   .mobile {
-<<<<<<< HEAD
     display: none;
-=======
-      display: none;
->>>>>>> a5b32b75d464791c2bd24700b336f1f921987bd8
   }
 }
