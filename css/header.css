@@ -21,7 +21,7 @@
 }
 
 header {
-    background-image: url(/img/header-img-precomp.png);
+    background-image: url(/public/img/header-img-precomp.png);
     background-repeat: no-repeat;
     background-size: cover;
 }

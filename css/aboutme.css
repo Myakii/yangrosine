@@ -14,8 +14,7 @@
     height: 200px;
     width: 200px;
     margin-top: 2em;
-    background: url("/img/profile-pic.png") center center no-repeat;
-    background: url("/img/profile-pic.png") center center no-repeat;
+    background: url("/public/img/profile-pic.png") center center no-repeat;
 }
 
 .about-para {
