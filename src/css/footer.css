@@ -4,7 +4,7 @@
 }
 
 .contact {
-    color: #000;
+    color: #B6244F;
 }
 
 .button-container {
@@ -18,17 +18,18 @@
 }
 
 .social-media a {
-    color: #000;
+    color: #B6244F;
 }
 
 .social-media a:hover {
     color: #B6244F;
+    font-size: large;
 }
 
 /* footer  */
 .foot {
     text-align: center;
-    color: #000;
+    color: #B6244F;
 }
 
 lemon-learning-player {
