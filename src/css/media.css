@@ -28,76 +28,6 @@
   }
 }
 
-/* Jumbotron */
-@media (min-width: 12.5em) {
-  #jumbotron {
-    margin-top: 1.15em;
-  }
-}
-
-@media (min-width: 63em) {
-  #jumbotron {
-    margin-top: 3em;
-  }
-}
-
-@media (min-width: 12.5em) {
-  #supporting-header {
-    margin-top: 0.8em;
-    margin-top: 0.8em;
-  }
-}
-
-@media (min-width: 30em) {
-  #supporting-header {
-    margin-top: 0.7em;
-    margin-top: 0.7em;
-  }
-}
-
-@media (min-width: 63em) {
-  #supporting-header {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-  }
-}
-
-/* Btn */
-
-@media (min-width: 12.5em) {
-  .btn {
-    padding: 1em;
-    width: 70%;
-  }
-}
-
-@media (min-width: 30em) {
-  .btn {
-    width: 40%;
-  }
-}
-
-@media (min-width: 47.5em) {
-  .btn {
-    padding: 1em 3em;
-    width: 30%;
-  }
-}
-
-@media (min-width: 63em) {
-  .btn {
-    width: 20%;
-    margin-top: 5em;
-  }
-
-  .btn:hover {
-    background-color: #fff;
-    color: #7a7f82;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-  }
-}
-
 @media (min-width: 12.5em) {
   .fa-bars {
     margin-top: 0.2em;
@@ -112,52 +42,6 @@
   }
 }
 
-/* Flex */
-@media (min-width: 12.5em) {
-  .flex {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-}
-
-@media (min-width: 63em) {
-  .flex {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-}
-
-/* Figure & IMG */
-@media (min-width: 12.5em) {
-  figure {
-    width: 100%;
-    padding-right: 5px;
-    overflow: hidden;
-  }
-}
-
-@media (min-width: 30em) {
-  figure {
-    width: 50%;
-  }
-}
-
-@media (min-width: 47.5em) {
-  figure {
-    width: 35%;
-  }
-}
-
-@media (min-width: 63em) {
-  figure {
-    height: 300px;
-    width: 300px;
-    border: 2px solid #B6244F;
-  }
-}
-
 @media (min-width: 12.5em) {
   img {
     width: 100%;
@@ -171,49 +55,6 @@
   }
 }
 
-/* Contact */
-@media (min-width: 12.5em) {
-  .contact {
-    white-space: normal;
-    text-align: center;
-    color: #fff;
-    margin-bottom: 0;
-  }
-}
-
-@media (min-width: 47.5em) {
-  .contact {
-    white-space: nowrap;
-  }
-}
-
-@media (min-width: 12.5em) {
-  .contact-button {
-    padding: 1em;
-    width: 70%;
-    margin: 0.5em;
-  }
-}
-
-@media (min-width: 30em) {
-  .contact-button {
-    width: 40%;
-  }
-}
-
-@media (min-width: 47.5em) {
-  .contact-button {
-    padding: 1em 3em;
-    width: 30%;
-  }
-}
-
-@media (min-width: 63em) {
-  .contact-button {
-    width: 20%;
-    margin: 0.5em;
-  }
-}
 
 /* Media */
 @media (min-width: 12.5em) {

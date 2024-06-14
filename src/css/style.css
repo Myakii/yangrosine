@@ -323,3 +323,10 @@ img::-moz-selection {
   visibility: none;
   display: none;
 }
+
+.title {
+  text-align: center;
+  color: #B6244F;
+  margin: 0.5em;
+  font-size: 2rem;
+}

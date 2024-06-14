@@ -3,10 +3,6 @@
     background-color: #FEECEE;
 }
 
-.contact {
-    color: #B6244F;
-}
-
 .button-container {
     display: flex;
     justify-content: center;
@@ -31,6 +27,7 @@
     text-align: center;
     color: #B6244F;
 }
+
 
 lemon-learning-player {
     display: none;

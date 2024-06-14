@@ -1,0 +1,44 @@
+.gradiant-color {
+    background: linear-gradient(
+        to right,
+        #B6244F 50%,
+        #FEECEE 50%
+    );
+}
+.skills {
+    display: flex;
+}
+
+/* LEFT */
+.skills .left-skill {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills .left-skill h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    background-color: #FEECEE;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+/* RIGHT */
+
+.skills .right-skill {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills .right-skill h2 {
+    margin-bottom: 1rem;
+    background-color: #B6244F;
+    color:#FEECEE;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+/* Container skill */  
+.skills .container-skill {
+    padding: 0 1rem;
+}

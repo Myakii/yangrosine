@@ -26,6 +26,9 @@
   <link rel="stylesheet" href="src/css/header.css">
   <link rel="stylesheet" href="src/css/aboutme.css">
   <link rel="stylesheet" href="src/css/project.css">
+  <link rel="stylesheet" href="src/css/skills.css">
+  <link rel="stylesheet" href="src/css/btn.css">
+
   <script src="src/js/jquery-2.1.4.min.js"></script>
 </head>
 
@@ -44,7 +47,7 @@
       <div class="close"></div>
     </div>
     <div class="container-header">
-      <img id="logo" src="assets/logo.png" alt="Logo du Portefolio de Rosine !"/>
+      <img id="logo" src="assets/logo.png" alt="Logo du Portefolio de Rosine !" />
       <nav>
         <a id="toggle" href="#"><i class="fa fa-bars fa-2x"></i></a>
         <ul class="in">
@@ -61,37 +64,36 @@
     <div class="container">
       <div class="header-element">
         <h1 id="jumbotron">Yang Rosine</h1>
-        <h2 id="supporting-header">Développeuse web & mobile</h2>
-        <a href="assets/CV_Yang_Rosine.pdf" download class="contact-button">Télécharger mon CV</a>
+        <h2 class="title">Développeuse web & mobile</h2>
+        <a href="assets/CV_Yang_Rosine.pdf" download class="button">Télécharger mon CV</a>
       </div>
     </div>
   </header>
   <section>
-    <div class="container">
-      <div class="story">
-        <h2 id="story_title">Mon histoire</h2>
-        <div class="self-pic"></div>
-        <p class="about-para">
-          Bonjour, je m'appelle <strong>Yang Rosine</strong>, je suis née à Paris.
-          <br>
-          Actuellement, je suis en alternance chez <strong>Galileo Global Education</strong> et je travaille le week-end
-          comme vendeuse à <strong>Primark</strong> !
-          <br>
-          Je suis étudiante en développement web et mobile à <strong>Hetic</strong>.
-          <br>
-          Depuis toujours, je suis passionnée par la création, que ce soit virtuel ou réel, ce qui m'a conduite à
-          rejoindre le domaine de la technologie, un monde qui a toujours été présent durant mon enfance.
-          <br>
-          À l'avenir, j'espère pouvoir aider mon entourage à concrétiser leurs rêves à travers les sites internet que je
-          créerai pour eux.
-        </p>
-      </div>
+    <div class="container white">
+      <h2 class="title">Mon histoire</h2>
+      <div class="self-pic"></div>
+      <p class="about-para">
+        Bonjour, je m'appelle <strong>Yang Rosine</strong>, je suis née à Paris.
+        <br>
+        Actuellement, je suis en alternance chez <strong>Galileo Global Education</strong> et je travaille le week-end
+        comme vendeuse à <strong>Primark</strong> !
+        <br>
+        Je suis étudiante en développement web et mobile à <strong>Hetic</strong>.
+        <br>
+        Depuis toujours, je suis passionnée par la création, que ce soit virtuel ou réel, ce qui m'a conduite à
+        rejoindre le domaine de la technologie, un monde qui a toujours été présent durant mon enfance.
+        <br>
+        À l'avenir, j'espère pouvoir aider mon entourage à concrétiser leurs rêves à travers les sites internet que je
+        créerai pour eux.
+      </p>
+    </div>
     </div>
   </section>
   <section>
-    <div class="container">
+    <div class="container white">
       <div class="project">
-        <h2 id="project_title">Mes projets</h2>
+        <h2 class="title">Mes projets</h2>
         <div class="flex">
           <figure id="one">
             <figcaption id="img1" class="overlay">Pourpre</figcaption><a href="https://github.com/Myakii/Pourpre"
@@ -99,7 +101,8 @@
           </figure>
           <figure id="two">
             <figcaption id="img2" class="overlay">NyLiv</figcaption><a href="https://github.com/Myakii/NyLiv"
-              target="_blank"><img src="assets/photo-2.png" alt="NyLiv, la meilleure appplication qui regroupe tous les animaux à la recherche d'une famille."></a>
+              target="_blank"><img src="assets/photo-2.png"
+                alt="NyLiv, la meilleure appplication qui regroupe tous les animaux à la recherche d'une famille."></a>
           </figure>
           <figure id="three">
             <figcaption id="img3" class="overlay">Spectra</figcaption><a href="http://externallinkgoeshere.co.uk"
@@ -115,18 +118,44 @@
           </figure>
           <figure id="six">
             <figcaption id="img6" class="overlay">Panthère</figcaption><a href="http://externallinkgoeshere.co.uk"
-              target="_blank"><img src="assets/photo-5.png" alt=""></a>
+              target="_blank"><img src="assets/photo-6.png" alt=""></a>
           </figure>
         </div>
       </div>
     </div>
   </section>
-  <footer class="light-pink">
-    <div class="container">
-      <h2 class="contact">Contact</h2>
+
+  <section>
+    <div class="container gradiant-color">
+      <div class="left-skill">
+        <h2 class="title pro">Mes compétences professionnelles</h2>
+        <div class="container-skill pro">
+          <ul>
+            <li>Travail d'équipe</li>
+            <li>Créativité</li>
+            <li>Adaptabilité</li>
+            <li>Organisation</li>
+            <li>Communication</li>
+            <li>Autonomie</li>
+            <li>Polyvalence</li>
+          </ul>
+        </div>
+      </div>
+      <div class="right-skill">
+        <h2 class="title perso">Mes compétences personnelles</h2>
+        <div class="container-skill perso">
+          <ul>
+            <li>Curiosité</li>
+          </ul>
+        </div>
+  </section>
+
+  <footer>
+    <div class="container white">
+      <h2 class="title">Contact</h2>
       <p class="contact"></p>
       <div class="button-container">
-        <a href="mailto:lili_yang@hotmail.fr" class="contact-button">Envoyer un mail</a>
+        <a href="mailto:lili_yang@hotmail.fr" class="button">Envoyer un mail</a>
       </div>
       <div class="social-media">
         <a href="https://www.linkedin.com/in/rosine-yang-6863b0257/">Linkedin</a>
