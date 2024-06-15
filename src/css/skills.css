@@ -5,40 +5,44 @@
         #FEECEE 50%
     );
 }
-.skills {
+
+/* Header */
+
+.header-skill {
     display: flex;
+    justify-content: space-between;
 }
 
-/* LEFT */
-.skills .left-skill {
-    display: flex;
-    flex-direction: column;
-}
-
-.skills .left-skill h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    background-color: #FEECEE;
-    padding: 10px 30px;
+.header-skill .title {
+    padding: 10px 20px;
     border-radius: 10px;
 }
 
-/* RIGHT */
+/* Header pro */
 
-.skills .right-skill {
+.header-skill .title.pro {
+    background: #FEECEE;
+    color: #B6244F;
+}
+
+/* Header perso */
+
+.header-skill .title.perso {
+    background: #B6244F;
+    color: #FEECEE;
+}
+
+/* Container skill */
+
+.container-skill {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
-.skills .right-skill h2 {
-    margin-bottom: 1rem;
-    background-color: #B6244F;
-    color:#FEECEE;
-    padding: 10px 30px;
-    border-radius: 10px;
-}
+/* skill li-item */
 
-/* Container skill */  
-.skills .container-skill {
-    padding: 0 1rem;
+.skill .container-skill li.li-item {
+    margin-left: 10px;
 }
