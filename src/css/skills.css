@@ -46,3 +46,7 @@
 .skill .container-skill li.li-item {
     margin-left: 10px;
 }
+
+.container-skill-pro {
+    column-count: 2;
+}
