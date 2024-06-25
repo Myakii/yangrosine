@@ -81,7 +81,7 @@
 /* Container */
 @media (min-width: 12.5em) {
   .container {
-    padding: 2.5em 3em;
+    padding: 3em 3em;
   }
 
   .container:after {

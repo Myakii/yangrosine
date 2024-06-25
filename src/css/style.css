@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 html {
   font-weight: 600;
   font-style: normal;
+  font-family: "Indie Flower", cursive;
 }
 
 body {
@@ -63,10 +66,6 @@ strong {
 
 dfn {
   font-style: italic;
-}
-
-h1 {
-  font-size: 2em;
 }
 
 mark {
@@ -255,8 +254,10 @@ h6 {
 }
 
 h1 {
+  font-family: "Indie Flower", cursive;
   font-size: 3.5em;
   line-height: 1.05;
+  font-weight: 400;
 }
 
 h2 {
@@ -276,7 +277,7 @@ h4 {
 
 p {
   line-height: 1.5;
-  font-size: 1.05em;
+  font-size: 1.1em;
   color: #333;
   font-weight: 400;
 }
@@ -332,4 +333,8 @@ img::-moz-selection {
   color: #B6244F;
   margin: 0.5em;
   font-size: 2rem;
+}
+
+.container-direction {
+  padding: 30px 0;
 }

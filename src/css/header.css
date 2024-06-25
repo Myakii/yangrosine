@@ -33,9 +33,12 @@ nav {
 nav a {
     color: #B6244F;
     text-decoration: none;
-    background: linear-gradient(to top, #B6244F 0%, #B6244F 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    background: linear-gradient(to top, #B6244F 0%, #B6244F 1%, transparent 10.01%) no-repeat left bottom / 0 100%;
     transition: background-size .5s;
     padding-bottom: 5px;
+    font-family: "Indie Flower", cursive;
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 nav a:hover {
