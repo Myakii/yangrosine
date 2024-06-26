@@ -24,7 +24,7 @@
 @media (min-width: 63em) {
   ul.in {
     display: inline-block;
-    font-size: 1em;
+    font-size: 1.2em;
   }
 }
 
@@ -81,7 +81,8 @@
 /* Container */
 @media (min-width: 12.5em) {
   .container {
-    padding: 3em 3em;
+    height: 100vh;
+    margin-top: 5em;
   }
 
   .container:after {
