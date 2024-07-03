@@ -5,7 +5,8 @@
     height: 200px;
     width: 200px;
     margin-top: 2em;
-    background: url("/yangrosine/src/assets/profile-pic.png") center center no-repeat; 
+    background: url("/yangrosine/src/assets/profile-pic.png") center center no-repeat;
+    background: url("/src/assets/profile-pic.png") center center no-repeat;
 }
 
 .middle {
@@ -16,4 +17,45 @@
 .about-para {
     color: #000;
     margin-top: 50px;
+}
+
+#section2 .doggy {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+#section2 .doggy svg {
+    height: 30px;
+}
+
+#section2 .doggy .doggy-fly,
+#section2 .doggy .doggy-loki {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#section2 .doggy .tooltip-fly {
+    display: none;
+    left: 250px;
+    z-index: 1;
+    transition: opacity 0.5s, display 0.5s allow-discrete;
+}
+
+#section2 .doggy .tooltip-loki {
+    display: none;
+    right: 150px;
+    z-index: 1;
+    transition: opacity 0.5s, display 0.5s allow-discrete;
+}
+
+#section2 .doggy-fly:hover .tooltip-fly {
+    display: block;
+}
+
+#section2 .doggy-loki:hover .tooltip-loki {
+    display: block;
 }

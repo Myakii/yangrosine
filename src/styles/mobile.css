@@ -83,8 +83,7 @@
 @media (min-width: 12.5em) {
   .container {
     height: 100vh;
-    margin-top: 5em;
-  }
+    }
 
   .container:after {
     content: " ";
