@@ -1,60 +1,61 @@
+/* Element du menu */
+
 /* Header */
+/* Minimium 200px */
 @media (min-width: 12.5em) {
-  header {
-    height: 100%;
-    padding-bottom: 2em;
-  }
-}
 
-@media (min-width: 63em) {
-  header {
-    height: 100vh;
-    background-attachment: fixed;
-  }
-}
-
-@media (min-width: 12.5em) {
   ul.in {
     display: none;
     font-weight: 600;
     letter-spacing: 0.075em;
   }
-}
 
-@media (min-width: 63em) {
-  ul.in {
-    display: inline-block;
-    font-size: 1.2em;
-  }
-}
-
-@media (min-width: 12.5em) {
   .fa-bars {
     margin-top: 0.2em;
     display: block;
     cursor: pointer;
   }
+
+  .hidden-desktop {
+    visibility: none;
+    display: none;
+  }
+
+  .header-mobile {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FEECEE;
+    padding: 20px 20px 0;
+    align-items: center;
+  }
 }
 
+/* Minimium 1008px */
 @media (min-width: 63em) {
+  header {
+    background-attachment: fixed;
+  }
+
+  ul.in {
+    display: inline-block;
+    font-size: 1.2em;
+  }
+
   .fa-bars {
-    display: none !important;
+    display: none;
+  }
+
+  .hidden-desktop {
+    visibility: none;
+    display: flex;
+  }
+
+  .header-mobile {
+    display: none;
   }
 }
 
-@media (min-width: 12.5em) {
-  img {
-    width: 100%;
-  }
-}
-
-@media (min-width: 63em) {
-  img {
-    height: 300px;
-    width: 300px;
-  }
-}
-
+/* Fin Header */
 
 /* Media */
 @media (min-width: 12.5em) {
@@ -130,37 +131,16 @@
   min-width: 100%;
   height: 100%;
   position: fixed;
-  opacity: 0.9;
+  padding: 20px;
 }
 
-.close {
-  margin-top: -17em;
-  margin-left: 1em;
-  display: inline;
-  width: 10%;
-  clear: both;
-  position: fixed;
-  height: 70px;
-  width: 70px;
-  overflow: hidden;
-  background-image: url(/img/cross.png);
-  background-repeat: no-repeat;
-  z-index: 1000;
-  cursor: pointer;
+.menu-mobile {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  gap: 100px;
 }
-
-.overlay {
-  width: 300px;
-  height: 0;
-  z-index: 99;
-  opacity: 0;
-  text-align: center;
-  top: 50%;
-  -webkit-transform: translateY(50%);
-  -ms-transform: translateY(50%);
-  transform: translateY(50%);
-}
-
 
 @media (min-width: 12.5em) {
   .mobile {
@@ -174,4 +154,21 @@
   .mobile {
     display: none;
   }
+}
+
+.close {
+  font-size: 3em;
+  overflow: hidden;
+  z-index: 1000;
+  cursor: pointer;
+  color: #fff;
+}
+
+.close.active {
+  opacity: 1;
+}
+
+.hidden {
+  visibility: none;
+  display: none;
 }

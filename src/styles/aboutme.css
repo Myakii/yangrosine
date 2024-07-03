@@ -1,0 +1,19 @@
+.self-pic {
+    border-radius: 50%;
+    border: #B6244F 3px solid;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+    margin-top: 2em;
+    background: url("/src/assets/yangrosine/assets/profile-pic.png") center center no-repeat;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+}
+
+.about-para {
+    color: #000;
+    margin-top: 50px;
+}

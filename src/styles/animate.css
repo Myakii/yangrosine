@@ -1,0 +1,23 @@
+  .section {
+    transition: transform 1s ease-in-out;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+  }
+
+  .section2 {
+    background-color: #56cfe1;
+  }
+
+  .section3 {
+    background-color: #80ed99;
+  }
+
+  .section4 {
+    background-color: #f4a261;
+  }
+
+  .active {
+    z-index: 1;
+    transform: translateY(0);
+  }

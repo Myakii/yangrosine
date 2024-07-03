@@ -11,45 +11,71 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-compatible" content="IE=Edge">
   <meta name="robots" content="index, follow">
-  <meta name="description" content="Portefolio de Yang Rosine en HTML 5 et CSS 3 !">
-  <meta name="keywords" content="Portfolio HTML5 CSS3 Javascript">
+  <meta name="description" content="Portefolio de Yang Rosine en HTML et CSS !">
+  <meta name="keywords" content="Portfolio HTML CSS Javascript">
   <meta name="msapplication-TileColor" content="#cdcec0">
   <meta name="msapplication-TileImage" content="/mstile-144x144.png">
   <meta name="theme-color" content="#ffffff">
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="/yangrosine/favicon.ico" sizes="32x32">
-  <!-- Style -->
-  <link rel="stylesheet" href="src/css/style.css">
-  <link rel="stylesheet" href="src/css/media.css">
-  <link rel="stylesheet" href="src/css/footer.css">
-  <link rel="stylesheet" href="src/css/mobile.css">
-  <link rel="stylesheet" href="src/css/header.css">
-  <link rel="stylesheet" href="src/css/aboutme.css">
-  <link rel="stylesheet" href="src/css/project.css">
-  <link rel="stylesheet" href="src/css/skills.css">
-  <link rel="stylesheet" href="src/css/btn.css">
 
-  <script src="src/js/jquery-2.1.4.min.js"></script>
+  <!-- CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Style -->
+  <link rel="stylesheet" href="src/styles/import.css">
+  <link rel="stylesheet" href="src/styles/style.css">
+  <link rel="stylesheet" href="src/styles/animate.css">
+  <link rel="stylesheet" href="src/styles/header.css">
+  <link rel="stylesheet" href="src/styles/mobile.css">
+  <link rel="stylesheet" href="src/styles/button.css">
+  <link rel="stylesheet" href="src/styles/aboutme.css">
+  <link rel="stylesheet" href="src/styles/project.css">
+  <link rel="stylesheet" href="src/styles/footer.css">
+
+  <link rel="stylesheet" href="src/styles/section1.css">
+
+  <!-- Javascript -->
+  <script src="/src/javascript/jquery-2.1.4.min.js"></script>
 </head>
 
 <body>
+  <!-- Header -->
   <header>
-    <div class="overlay-nav hidden">
-      <ul class="mobile">
-        <li><a href="#port" class="about">À propos</a></li>
-      </ul>
-      <ul class="mobile">
-        <li><a href="#" class="work">Projets</a></li>
-      </ul>
-      <ul class="mobile">
-        <li><a href="#" class="contact-nav">Contact</a></li>
-      </ul>
-      <div class="close"></div>
+    <div class="header-mobile">
+      <a href="#section1">
+        <img id="logo" src="./src/assets/logo.png" alt="Bonjour, je suis une simple mascotte !" />
+      </a>
+      <a id="toggle" href="#">
+        <i class="fa fa-bars fa-2x"></i>
+      </a>
+      <div class="close" style="display: none;">X</div>
     </div>
-    <div class="container-header">
-      <img id="logo" src="assets/logo.png" alt="Logo du Portefolio de Rosine !" />
+    <div class="overlay-nav hidden">
+      <div class="menu-mobile">
+        <ul class="mobile">
+          <li><a href="#" class="home">Accueil</a></li>
+        </ul>
+        <ul class="mobile">
+          <li><a href="#" class="about">À propos</a></li>
+        </ul>
+        <ul class="mobile">
+          <li><a href="#" class="work">Projets</a></li>
+        </ul>
+        <ul class="mobile">
+          <li><a href="#" class="contact-nav">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Fin Mobile -->
+    <!-- Desktop -->
+    <div class="container-header hidden-desktop">
+      <a href="#section1">
+        <img id="logo" src="./src/assets/logo.png" alt="Bonjour, je suis une simple mascotte !" />
+      </a>
       <nav>
-        <a id="toggle" href="#"><i class="fa fa-bars fa-2x"></i></a>
+        <ul class="in">
+          <li><a href="#" class="home">Accueil</a></li>
+        </ul>
         <ul class="in">
           <li><a href="#" class="about">À propos</a></li>
         </ul>
@@ -59,96 +85,85 @@
         <ul class="in">
           <li><a href="#" class="contact-nav">Contact</a></li>
         </ul>
+        <div class="header-footer">
       </nav>
+      <p class="foot">&copy; Yang Rosine 2024</p>
     </div>
-    <div class="header-element">
+    <!-- Header -->
+    <!-- Fin Desktop -->
+  </header>
+  <!-- Section 1 -->
+  <section>
+    <div class="home"></div>
+    <div id="section1" class="section container">
       <h1 id="jumbotron">Yang Rosine</h1>
       <h2 class="title">Développeuse web & mobile</h2>
-      <a href="assets/CV_Yang_Rosine.pdf" download class="button">Télécharger mon CV</a>
-    </div>
-    </div>
-  </header>
-  <div class="story"></div>
-  <section>
-    <h2 class="title">Mon histoire</h2>
-    <div class="container white">
-      <div class="self-pic"></div>
-      <p class="about-para">
-          Bonjour, je m'appelle <strong>Yang Rosine</strong> et je suis née à Paris.
-          <br>
-          Actuellement, je suis en alternance chez <strong>Galileo Global Education</strong> et je travaille les week-ends
-          comme vendeuse à <strong>Primark</strong>.
-          <br>
-          Je suis étudiante en développement web et mobile à <strong>Hetic</strong>.
-          <br>
-          Depuis toujours, je suis passionnée par la création, que ce soit dans le domaine virtuel ou réel. Cette passion m'a conduite à
-          rejoindre le domaine de la technologie, un univers qui a toujours été présent durant mon enfance.
-          <br>
-          Sur long terme, j'espère pouvoir aider mon entourage à concrétiser leurs rêves grâce aux sites internet que je
-          créerai pour eux.
-        </p>
-        
-      <div class="doggy-pic">
-        <div class="fly">
-          <div class="fly-pic"></div>
-          <div class="middle">
-            <div class="doggy-text">
-              <strong>Nom :</strong> Fly
-              <strong>Race :</strong> Berger Allemand croisé
-              <strong>Spécialité :</strong> Râle constamment
-            </div>
-          </div>
-        </div>
-        <div class="loki">
-          <div class="loki-pic"></div>
-          <div class="middle">
-            <div class="doggy-text">
-              <strong>Nom :</strong> Loki
-              <strong>Race :</strong> Staffordshire Bull Terrier croisé
-              <strong>Spécialité :</strong> Extrêmment peureux
-            </div>
-          </div>
-        </div>
-      </div>
+      <a href="./src/assets/CV_Yang_Rosine.pdf" download class="button">Télécharger mon CV</a>
     </div>
   </section>
-  <div class="project"></div>
+  <!-- Fin section 1 -->
+  <!-- Section 2 -->
   <section>
-    <h2 class="title">Mes projets</h2>
-    <div class="container white">
+    <div id="section2" class="section container story">
+      <h2 class="title">Mon histoire</h2>
+      <div class="self-pic"></div>
+      <p class="about-para">
+        Bonjour, je m'appelle <strong>Yang Rosine</strong> et je suis née à Paris.
+        <br>
+        Actuellement, je suis en alternance chez <strong>Galileo Global Education</strong> et je travaille les
+        week-ends
+        comme vendeuse à <strong>Primark</strong>.
+        <br>
+        Je suis étudiante en développement web et mobile à <strong>Hetic</strong>.
+        <br>
+        Depuis toujours, je suis passionnée par la création, que ce soit dans le domaine virtuel ou réel. Cette
+        passion m'a conduite à
+        rejoindre le domaine de la technologie, un univers qui a toujours été présent durant mon enfance.
+        <br>
+        Sur long terme, j'espère pouvoir aider mon entourage à concrétiser leurs rêves grâce aux sites internet que je
+        créerai pour eux.
+      </p>
+    </div>
+  </section>
+  <!-- Fin section 1 -->
+  <!-- Section 3 -->
+  <section>
+    <div id="section3" class="section container project">
+      <h2 class="title">Mes projets</h2>
       <div class="flex">
         <figure id="one">
           <figcaption id="img1" class="overlay">Pourpre</figcaption><a href="https://github.com/Myakii/Pourpre"
-            target="_blank"><img src="assets/photo-1.png" alt="Pourpre, un site de logement haut de gamme."></a>
+            target="_blank"><img src="src/assets/photo-1.png" alt="Pourpre, un site de logement haut de gamme."></a>
         </figure>
         <figure id="two">
           <figcaption id="img2" class="overlay">NyLiv</figcaption><a href="https://github.com/Myakii/NyLiv"
-            target="_blank"><img src="assets/photo-2.png"
+            target="_blank"><img src="src/assets/photo-2.png"
               alt="NyLiv, la meilleure appplication qui regroupe tous les animaux à la recherche d'une famille."></a>
         </figure>
         <figure id="three">
           <figcaption id="img3" class="overlay">Spectra</figcaption><a href="http://externallinkgoeshere.co.uk"
-            target="_blank"><img src="assets/photo-3.png" alt=""></a>
+            target="_blank"><img src="src/assets/photo-3.png" alt=""></a>
         </figure>
         <figure id="four">
           <figcaption id="img4" class="overlay">Adopte un stagiaire</figcaption><a
-            href="https://github.com/Myakii/Adopte-un-Stagiaire" target="_blank"><img src="assets/photo-4.png"
+            href="https://github.com/Myakii/Adopte-un-Stagiaire" target="_blank"><img src="src/assets/photo-4.png"
               alt=""></a>
         </figure>
         <figure id="five">
           <figcaption id="img5" class="overlay">Konohi</figcaption><a href="https://myakii.github.io/Konohi/"
-            target="_blank"><img src="assets/photo-5.png" alt=""></a>
+            target="_blank"><img src="src/assets/photo-5.png" alt=""></a>
         </figure>
         <figure id="six">
           <figcaption id="img6" class="overlay">Panthère</figcaption><a href="http://externallinkgoeshere.co.uk"
-            target="_blank"><img src="assets/photo-6.png" alt=""></a>
+            target="_blank"><img src="src/assets/photo-6.png" alt=""></a>
         </figure>
       </div>
     </div>
   </section>
+  <!-- Fin section 3 -->
+  <!-- Section 4 -->
   <footer>
-    <div class="contact"></div>
-    <div class="light-pink">
+    <div id="section4" class="section container contact">
       <h2 class="title">Contact</h2>
       <div class="button-container">
         <a href="mailto:lili_yang@hotmail.fr" class="button">Envoyer un mail</a>
@@ -160,7 +175,9 @@
       <p class="foot">&copy; Yang Rosine 2024</p>
     </div>
   </footer>
-  <script src="src/js/main.js"></script>
+  <!-- Fin section 4 -->
+
+  <script src="/src/javascript/script.js"></script>
 </body>
 
 </html>

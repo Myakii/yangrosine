@@ -1,0 +1,19 @@
+/* Header à droite */
+#section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #B6244F;
+    background-image: url("../assets/yangrosine/assets/header-img-precomp.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}

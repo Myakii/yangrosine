@@ -1,14 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
 
+body,
 html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
   font-weight: 600;
   font-style: normal;
   font-family: "Indie Flower", cursive;
-}
-
-body {
-  margin: 0;
-  padding: 0;
+  scroll-behavior: smooth;
 }
 
 article,
@@ -322,11 +326,7 @@ img::-moz-selection {
   background: rgba(255, 255, 255, 0.9);
 }
 
-.hidden {
-  visibility: none;
-  display: none;
-}
-
-.title {
-  padding: 0.5em 0;
+.container {
+  height: 100vh;
+  padding: 2rem 10rem 0 15rem;
 }

@@ -1,0 +1,68 @@
+/* Flex */
+@media (min-width: 12.5em) {
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 63em) {
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  img {
+    height: 250px;
+    width: 250px;
+  }
+
+}
+
+/* Figure & IMG */
+@media (min-width: 12.5em) {
+  figure {
+    width: 100%;
+    padding-right: 5px;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 30em) {
+  figure {
+    width: 50%;
+  }
+}
+
+@media (min-width: 47.5em) {
+  figure {
+    width: 35%;
+  }
+}
+
+@media (min-width: 63em) {
+  figure {
+    height: 250px;
+    width: 250px;
+    border: 2px solid #B6244F;
+  }
+}
+
+/* Nom des projets */
+.overlay {
+  width: 250px;
+  height: 0;
+  z-index: 99;
+  opacity: 0;
+  text-align: center;
+  top: 50%;
+  -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
