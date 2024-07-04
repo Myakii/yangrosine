@@ -39,6 +39,7 @@
 }
 
 #section2 .doggy .tooltip-fly {
+    opacity: 0;
     display: none;
     left: 250px;
     z-index: 1;
@@ -46,6 +47,7 @@
 }
 
 #section2 .doggy .tooltip-loki {
+    opacity: 0;
     display: none;
     right: 150px;
     z-index: 1;
@@ -53,9 +55,11 @@
 }
 
 #section2 .doggy-fly:hover .tooltip-fly {
+    opacity: 1;
     display: block;
 }
 
 #section2 .doggy-loki:hover .tooltip-loki {
+    opacity: 1;
     display: block;
 }
