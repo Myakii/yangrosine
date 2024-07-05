@@ -1,10 +1,19 @@
 /* Contact */
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    height: 100vh;
+    align-items: center;
+}
+
 .light-pink {
     background-color: #FEECEE;
 }
 
 .button-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -27,7 +36,6 @@
     text-align: center;
     color: #B6244F;
 }
-
 
 lemon-learning-player {
     display: none;
